@@ -1,0 +1,136 @@
+/* This is the CSS3 code for the Body */
+
+  body {
+  /* Box Model Settings*/
+    height: 100%;
+    width: 100%;
+    margin: 1px;
+    padding: 1px;
+    background-color: #000000;
+    opacity: 0.9;
+  /* Font Settings */
+    font-family: Helvetica;
+    font-size: 22px;
+    color: #fff5ee;
+    text-align: center;
+  }
+
+/* This is the CSS3 code for the  Header Section */
+
+  header{
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid #fff5ee;
+    position: fixed;
+    z-index: 1;
+
+    background-color: black;
+  }
+
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  header img {
+    padding-left: 10px;
+    height: 50px;
+  }
+
+  nav {
+    text-align: right;
+    flex-grow: 1;
+  }
+
+  nav span {
+    padding: 20px 10px;
+    display: inline-block;
+    color: inherit;
+  }
+
+  a:link {
+    color: #fff5ee;
+  }
+
+  a:visited {
+    color: #fff5ee;
+  }
+
+
+/* This is CSS3 code for the Mission Section  */
+
+  h2, h3, h4 {
+    margin: 0;
+    padding: 10px;
+  }
+
+  #mission {
+    height: 700px;
+    width: 100%;
+    padding-top: 70px;
+    background-image: url('/media/rick/6662-6333/BuildWebsitesfromScratchProjects/TeaCozy/Resources/Media/img-mission-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .text-content {
+    margin: auto;
+    background-color: black;
+    width: 1200px;
+  }
+/* This is the CSS3 code for the Tea of the Month Section */
+
+  #tea-shop {
+    height: 700px;
+    width: 1000px;
+    margin: auto;
+    padding-top: 70px;
+  }
+
+  .tea img {
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+    display: block;
+  }
+
+  .tea span {
+    padding: 5px;
+  }
+
+/* This is the CSS3 code for the Location Section */
+
+  #locations {
+    height: 500px;
+    background-image: url(/media/rick/6662-6333/BuildWebsitesfromScratchProjects/TeaCozy/Resources/Media/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 70px;
+  }
+
+  .shop{
+    width: 300px;
+    margin: 5px 20px;
+    flex-basis: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    opacity: 1;
+  }
+
+
+
+/* This is the CSS3 code for the Contact Section */
+
+  .contact {
+    height: 200px;
+  }
+
+/* This is the CSS3 code for the  Footer Section */
+
+  footer {
+    text-align: left;
+    padding-left: 20px;
+  }
